@@ -1,0 +1,54 @@
+/* Navbar Styles */
+.navbar {
+  background: linear-gradient(135deg, #2196F3, #1976D2);
+  color: white;
+  padding: 0 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+
+.navbar-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.brand-icon {
+  font-size: 32px;
+}
+
+.brand-name {
+  display: inline;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.badge {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    padding: 0 15px;
+    height: 60px;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
